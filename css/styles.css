@@ -1,0 +1,42 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(197, 156, 238, 0.619);
+  height: 100vh;
+}
+
+h1 {
+  border-bottom-style: inset;
+  width: 100%;
+}
+
+h5 {
+  font-style: italic;
+}
+
+p {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+}
+
+img {
+  display: flex;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 9.75rem;
+}
+
+.btn:hover {
+  scale: 1.05;
+}
